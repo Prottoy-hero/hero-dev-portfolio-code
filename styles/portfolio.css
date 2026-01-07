@@ -18,15 +18,15 @@
   cursor: pointer;
   border: 2px solid #fd6e0a;
 }
-.menu-link{
-    padding: 15px 20px;
+.menu-link {
+  padding: 15px 20px;
 }
-.menu-link:hover{
-    background-color: #fd6e0a;
-    color: #000;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: all ease-in 0.2s ;
+.menu-link:hover {
+  background-color: #fd6e0a;
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all ease-in 0.2s;
 }
 .section-heading {
   min-width: 827px;
@@ -56,6 +56,13 @@
   color: #fd6e0a;
 }
 /* main style  */
+
+.container {
+  width: 71%;
+  max-width: 1140px;
+  /* border: 10px solid red; */
+  margin: 0px auto;
+}
 header {
   background-color: #fff8f3;
   padding-top: 50px;
@@ -65,10 +72,6 @@ header {
   background-position: 23px 38px, bottom right;
 }
 nav {
-  width: 71%;
-  max-width: 1140px;
-  /* border: 10px solid red; */
-  margin: 0px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -128,9 +131,6 @@ nav .menu a {
 }
 
 #about .about-container {
-  width: 71%;
-  min-width: 1140px;
-  margin: 0 auto;
   text-align: center;
   background-color: #fff8f3;
   padding: 131px 156px;
@@ -150,12 +150,6 @@ nav .menu a {
 
 .about-info.info-card h4 {
   font-size: 20px;
-}
-
-#skills .skills-container {
-  width: 71%;
-  min-width: 1140px;
-  margin: 0 auto;
 }
 
 #skills .skills-container .skill-box {
@@ -240,14 +234,13 @@ nav .menu a {
   transition: all ease 0.2s;
 }
 
-
-footer{
+footer {
   margin-top: 130px;
   background-color: #fff8f3;
   padding: 130px 0;
 }
 
-footer .footer-container{
+footer .footer-container {
   width: 71%;
   max-width: 1140px;
   margin: 0 auto;
@@ -255,38 +248,37 @@ footer .footer-container{
   gap: 116px;
 }
 
-.footer-container h2{
+.footer-container h2 {
   color: #181818;
   font-size: 35px;
   margin-bottom: 20px;
 }
 
-.footer-container .social{
-  max-width:562px ;
+.footer-container .social {
+  max-width: 562px;
 }
 
-.footer-container .social p{
+.footer-container .social p {
   color: #474747;
   line-height: 28px;
   font-size: 16px;
   margin-bottom: 30px;
 }
 
-
-.footer-container .icons a{
+.footer-container .icons a {
   margin-right: 24px;
 }
 
-.footer-container form input[type="text"]{
+.footer-container form input[type="text"] {
   width: 461px;
   padding: 18px 31px;
   margin-bottom: 24px;
   border: none;
   border-radius: 5px;
   color: #757575;
+  font-size: 30px;
 }
-
-#textarea{
+#textarea {
   width: 461px;
-  font-size: large;
+  font-size: 40px;
 }
